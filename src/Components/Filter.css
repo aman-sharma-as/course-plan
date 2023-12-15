@@ -1,0 +1,24 @@
+.filterContainer{
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterButton{
+    margin: 5px 5px;
+    padding: 7px 20px;
+    background-color: var(--accent2);
+    color: var(--background1);
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.active{
+    border: 2px solid var(--background1);
+    opacity: 100%;
+}

@@ -1,0 +1,14 @@
+.cards{
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 750px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

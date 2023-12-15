@@ -1,0 +1,11 @@
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--accent2);
+}
+
+.navbar h2{
+    color: var(--background1);
+}
